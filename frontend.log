@@ -1,0 +1,24 @@
+env: load .env
+env: export EXPO_PUBLIC_API_URL EXPO_PUBLIC_BACKEND_API_URL
+Starting project at C:\Users\PREDATOR\Desktop\Suvyatra app\frontend
+Starting Metro Bundler
+
+Waiting on http://localhost:19006
+
+Logs for your project will appear below.
+Web Bundled 1008ms index.ts (912 modules)
+Web Bundled 45ms index.ts (1 module)
+Web  INFO  %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+Web  WARN  "textShadow*" style props are deprecated. Use "textShadow".
+Web  WARN  "shadow*" style props are deprecated. Use "boxShadow".
+Web  WARN  Require cycle: frontend/App.tsx -> frontend/src/navigation/MainTabs.tsx -> frontend/src/screens/HomeScreen.tsx -> frontend/App.tsx
+
+Require cycles are allowed, but can result in uninitialized values. Consider refactoring to remove the need for a cycle.
+Web  WARN  Require cycle: frontend/App.tsx -> frontend/src/navigation/MainTabs.tsx -> frontend/src/screens/ProfileScreen.tsx -> frontend/App.tsx
+
+Require cycles are allowed, but can result in uninitialized values. Consider refactoring to remove the need for a cycle.
+Web  LOG  Running application "main" with appParams:
+ {"hydrate": undefined, "rootTag": "#root"} 
+Development-level warnings: ON.
+Performance optimizations: OFF.
+Web  WARN  props.pointerEvents is deprecated. Use style.pointerEvents
