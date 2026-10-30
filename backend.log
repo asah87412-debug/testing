@@ -1,0 +1,4 @@
+MongoDB connected
+Password-reset email (SMTP) is configured.
+Google Sign-In is NOT configured. Set GOOGLE_WEB_CLIENT_ID in .env. POST /api/auth/google will return 503.
+SuvYatra API running on http://localhost:5000

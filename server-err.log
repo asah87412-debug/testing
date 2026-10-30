@@ -1,0 +1,56 @@
+Google Sign-In is NOT configured. Set GOOGLE_WEB_CLIENT_ID in .env. POST /api/auth/google will return 503.
+Could not resolve a relevant licensed image: Error: Wikimedia Commons image search failed (429); retry after 7.
+    at searchCommons (C:\Users\PREDATOR\Desktop\Suvyatra app\backend\services\relevantImages.js:344:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async resolveRelevantImagesInner (C:\Users\PREDATOR\Desktop\Suvyatra app\backend\services\relevantImages.js:432:25)
+    at async C:\Users\PREDATOR\Desktop\Suvyatra app\backend\routes\images.js:26:20
+Could not resolve a relevant licensed image: Error: Wikimedia Commons image search failed (429); retry after 5.
+    at searchCommons (C:\Users\PREDATOR\Desktop\Suvyatra app\backend\services\relevantImages.js:344:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async resolveRelevantImagesInner (C:\Users\PREDATOR\Desktop\Suvyatra app\backend\services\relevantImages.js:432:25)
+    at async C:\Users\PREDATOR\Desktop\Suvyatra app\backend\routes\images.js:26:20
+Could not resolve a relevant licensed image: Error: Wikimedia Commons image search failed (429); retry after 39.
+    at searchCommons (C:\Users\PREDATOR\Desktop\Suvyatra app\backend\services\relevantImages.js:344:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async resolveRelevantImagesInner (C:\Users\PREDATOR\Desktop\Suvyatra app\backend\services\relevantImages.js:407:21)
+    at async C:\Users\PREDATOR\Desktop\Suvyatra app\backend\routes\images.js:26:20
+Could not resolve a relevant licensed image: Error: Wikimedia Commons image search failed (429); retry after 17.
+    at searchCommons (C:\Users\PREDATOR\Desktop\Suvyatra app\backend\services\relevantImages.js:344:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async resolveRelevantImagesInner (C:\Users\PREDATOR\Desktop\Suvyatra app\backend\services\relevantImages.js:407:21)
+    at async C:\Users\PREDATOR\Desktop\Suvyatra app\backend\routes\images.js:26:20
+Could not resolve a relevant licensed image: Error: Wikimedia Commons image search failed (429); retry after 16.
+    at searchCommons (C:\Users\PREDATOR\Desktop\Suvyatra app\backend\services\relevantImages.js:344:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async resolveRelevantImagesInner (C:\Users\PREDATOR\Desktop\Suvyatra app\backend\services\relevantImages.js:407:21)
+    at async C:\Users\PREDATOR\Desktop\Suvyatra app\backend\routes\images.js:26:20
+Could not resolve a relevant licensed image: [DOMException [TimeoutError]: The operation was aborted due to timeout]
+Could not resolve a relevant licensed image: [DOMException [TimeoutError]: The operation was aborted due to timeout]
+Could not resolve a relevant licensed image: [DOMException [TimeoutError]: The operation was aborted due to timeout]
+Could not resolve a relevant licensed image: [TypeError: fetch failed] {
+  [cause]: Error: getaddrinfo ENOTFOUND commons.wikimedia.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:123:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'commons.wikimedia.org'
+  }
+}
+Could not resolve a relevant licensed image: [TypeError: fetch failed] {
+  [cause]: Error: getaddrinfo ENOTFOUND commons.wikimedia.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:123:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'commons.wikimedia.org'
+  }
+}
+Could not resolve a relevant licensed image: [TypeError: fetch failed] {
+  [cause]: Error: getaddrinfo ENOTFOUND commons.wikimedia.org
+      at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:123:26) {
+    errno: -3008,
+    code: 'ENOTFOUND',
+    syscall: 'getaddrinfo',
+    hostname: 'commons.wikimedia.org'
+  }
+}

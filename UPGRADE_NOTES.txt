@@ -1,0 +1,1 @@
+Built from the uploaded db ayush.zip concept (Node/Express/Mongoose). The original backend covered flights/hotels/bookings; this version expands it for SuvYatra. No real .env secrets were copied into the new package.
